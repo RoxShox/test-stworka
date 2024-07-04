@@ -61,17 +61,12 @@ body{
     stroke-width: 2px;
     stroke: #fff;
     stroke-linecap: round;
-    stroke-dasharray: 232.36;
+    stroke-dasharray: 300%;
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
 }
-
-.circle-small .progress.one {
-    stroke-dashoffset: 80;
-}
-
 .circle-small .progress.two {
-    stroke-dashoffset: 224;
+    stroke-dashoffset: 280%;
 }
 .item__circle__text{
     font-weight: 400;
