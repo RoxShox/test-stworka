@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.item{
+    border-radius: 10px;
+    max-width: 743px;
+    width: 100%;
+    height: 91px;
+    background: #3579f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18px 0 22px;
+}
+
+.item__info{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.circle-small {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-small svg {
+    width: 61px;
+    height: 61px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.circle-small .bg {
+    fill: none;
+    stroke-width: 1px;
+    stroke: rgba(255,255,255,0.5);
+}
+
+.circle-small .progress {
+    fill: none;
+    stroke-width: 2px;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-dasharray: 232.36;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.circle-small .progress.one {
+    stroke-dashoffset: 80;
+}
+
+.circle-small .progress.two {
+    stroke-dashoffset: 224;
+}
+.item__circle__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.item__info-flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.item__info-flex__checklist{
+    width: max-content;
+    border-radius: 40px;
+    padding: 0px 10px;
+    height: 18px;
+    background: #2364db;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.item__info-flex__tasks{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 133%;
+}
+
+.item__info-flex__reminder{
+    font-size: 12px;
+}
+
+.item__btn{
+    border-radius: 6px;
+    max-width: 170px;
+    width: 100%;
+    height: 40px;
+    background: #f4f8ff;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #4777ed;
+    cursor: pointer;
+}
